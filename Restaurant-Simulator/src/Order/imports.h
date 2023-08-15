@@ -1,0 +1,22 @@
+#pragma once
+enum Type
+{
+	NORMAL,
+	VEGAN,
+	VIP
+};
+
+enum STATUS
+{
+	ARRIVAL,
+	WAITING,
+	IN_SERVICE,
+	FINISHED
+};
+
+enum COOK_TYPE
+{
+	NORMAL_COOK,
+	VEGAN_COOK,
+	VIP_COOK
+};

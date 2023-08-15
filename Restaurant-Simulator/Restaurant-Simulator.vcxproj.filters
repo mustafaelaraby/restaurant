@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="lib\Containers\Queue\Queue.h" />
+    <ClCompile Include="src\GUI\GUI.cpp" />
+    <ClCompile Include="lib\Helpers\Helpers.cpp" />
+    <ClCompile Include="src\App\App.cpp" />
+    <ClCompile Include="src\Restaurant\Restaurant.cpp" />
+    <ClCompile Include="src\Order\Order.cpp" />
+    <ClCompile Include="src\Events\ArrivalEvent\ArrivalEvent.cpp" />
+    <ClCompile Include="src\Events\CancelEvent\CancelEvent.cpp" />
+    <ClCompile Include="src\Events\PromoteEvent\PromoteEvent.cpp" />
+    <ClCompile Include="src\Cooks\Normal_Cook\Normal_Cook.cpp" />
+    <ClCompile Include="src\Cooks\Vegan_Cook\Vegan_Cook.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib\Containers\Linked_Queue\Linked_Queue.h" />
+    <ClInclude Include="lib\Containers\Priority_Queue\Priority_Queue.h" />
+    <ClInclude Include="lib\Containers\Stack\Stack.h" />
+    <ClInclude Include="lib\Containers\Vector\Vector.h" />
+    <ClInclude Include="src\GUI\GUI.h" />
+    <ClInclude Include="src\GUI\imports.h" />
+    <ClInclude Include="lib\Helpers\Helpers.h" />
+    <ClInclude Include="src\App\App.h" />
+    <ClInclude Include="src\Restaurant\Restaurant.h" />
+    <ClInclude Include="src\Restaurant\imports.h" />
+    <ClInclude Include="src\Order\Order.h" />
+    <ClInclude Include="src\Order\imports.h" />
+    <ClInclude Include="src\Events\Event\Event.h" />
+    <ClInclude Include="src\Events\ArrivalEvent\ArrivalEvent.h" />
+    <ClInclude Include="src\Events\CancelEvent\CancelEvent.h" />
+    <ClInclude Include="src\Events\PromoteEvent\PromoteEvent.h" />
+    <ClInclude Include="src\Cooks\Normal_Cook\Normal_Cook.h" />
+    <ClInclude Include="src\Cooks\Vegan_Cook\Vegan_Cook.h" />
+    <ClInclude Include="src\Cooks\Cook\Cook.h" />
+    <ClInclude Include="src\Cooks\Cook\imports.h" />
+  </ItemGroup>
+</Project>
